@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65189E5427549D39B3164BF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E4E051381045B4B033253D /* libPods.a */; };
+		AC2A4A0F18F988A1001FD75D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2A4A0E18F988A1001FD75D /* Foundation.framework */; };
+		AC2A4A1118F988A1001FD75D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2A4A1018F988A1001FD75D /* CoreGraphics.framework */; };
+		AC2A4A1318F988A1001FD75D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2A4A1218F988A1001FD75D /* UIKit.framework */; };
+		AC2A4A1918F988A1001FD75D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2A4A1718F988A1001FD75D /* InfoPlist.strings */; };
+		AC2A4A1B18F988A1001FD75D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A4A1A18F988A1001FD75D /* main.m */; };
+		AC2A4A1F18F988A1001FD75D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A4A1E18F988A1001FD75D /* AppDelegate.m */; };
+		AC2A4A2218F988A1001FD75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2A4A2018F988A1001FD75D /* Main.storyboard */; };
+		AC2A4A2718F988A1001FD75D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2A4A2618F988A1001FD75D /* Images.xcassets */; };
+		AC2A4A2E18F988A1001FD75D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2A4A2D18F988A1001FD75D /* XCTest.framework */; };
+		AC2A4A2F18F988A1001FD75D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2A4A0E18F988A1001FD75D /* Foundation.framework */; };
+		AC2A4A3018F988A1001FD75D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2A4A1218F988A1001FD75D /* UIKit.framework */; };
+		AC2A4A3818F988A1001FD75D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2A4A3618F988A1001FD75D /* InfoPlist.strings */; };
+		AC2A4A3A18F988A1001FD75D /* AFNetworkingTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A4A3918F988A1001FD75D /* AFNetworkingTutorialTests.m */; };
+		AC2A4A4518F98AEF001FD75D /* SearchSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A4A4418F98AEF001FD75D /* SearchSplitViewController.m */; };
+		AC2A4A4818F98C52001FD75D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A4A4718F98C52001FD75D /* DetailViewController.m */; };
+		AC2A4A4B18FB1680001FD75D /* DollarInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2A4A4A18FB1680001FD75D /* DollarInputViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC2A4A3118F988A1001FD75D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2A4A0318F988A1001FD75D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2A4A0A18F988A1001FD75D;
+			remoteInfo = AFNetworkingTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2E4E051381045B4B033253D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2A4A0B18F988A1001FD75D /* AFNetworkingTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2A4A0E18F988A1001FD75D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC2A4A1018F988A1001FD75D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC2A4A1218F988A1001FD75D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC2A4A1618F988A1001FD75D /* AFNetworkingTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingTutorial-Info.plist"; sourceTree = "<group>"; };
+		AC2A4A1818F988A1001FD75D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC2A4A1A18F988A1001FD75D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC2A4A1C18F988A1001FD75D /* AFNetworkingTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		AC2A4A1D18F988A1001FD75D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC2A4A1E18F988A1001FD75D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC2A4A2118F988A1001FD75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC2A4A2618F988A1001FD75D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC2A4A2C18F988A1001FD75D /* AFNetworkingTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2A4A2D18F988A1001FD75D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC2A4A3518F988A1001FD75D /* AFNetworkingTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		AC2A4A3718F988A1001FD75D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC2A4A3918F988A1001FD75D /* AFNetworkingTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTutorialTests.m; sourceTree = "<group>"; };
+		AC2A4A4318F98AEF001FD75D /* SearchSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchSplitViewController.h; sourceTree = "<group>"; };
+		AC2A4A4418F98AEF001FD75D /* SearchSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchSplitViewController.m; sourceTree = "<group>"; };
+		AC2A4A4618F98C52001FD75D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AC2A4A4718F98C52001FD75D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AC2A4A4918FB1680001FD75D /* DollarInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarInputViewController.h; sourceTree = "<group>"; };
+		AC2A4A4A18FB1680001FD75D /* DollarInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DollarInputViewController.m; sourceTree = "<group>"; };
+		AC3BEEC618FB423C00AEF612 /* CurrencyConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyConversion.h; sourceTree = "<group>"; };
+		D50598592A4F415382FDD198 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2A4A0818F988A1001FD75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A4A1118F988A1001FD75D /* CoreGraphics.framework in Frameworks */,
+				AC2A4A1318F988A1001FD75D /* UIKit.framework in Frameworks */,
+				AC2A4A0F18F988A1001FD75D /* Foundation.framework in Frameworks */,
+				A65189E5427549D39B3164BF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2A4A2918F988A1001FD75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A4A2E18F988A1001FD75D /* XCTest.framework in Frameworks */,
+				AC2A4A3018F988A1001FD75D /* UIKit.framework in Frameworks */,
+				AC2A4A2F18F988A1001FD75D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2A4A0218F988A1001FD75D = {
+			isa = PBXGroup;
+			children = (
+				AC2A4A1418F988A1001FD75D /* AFNetworkingTutorial */,
+				AC2A4A3318F988A1001FD75D /* AFNetworkingTutorialTests */,
+				AC2A4A0D18F988A1001FD75D /* Frameworks */,
+				AC2A4A0C18F988A1001FD75D /* Products */,
+				D50598592A4F415382FDD198 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2A4A0C18F988A1001FD75D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A4A0B18F988A1001FD75D /* AFNetworkingTutorial.app */,
+				AC2A4A2C18F988A1001FD75D /* AFNetworkingTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2A4A0D18F988A1001FD75D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A4A0E18F988A1001FD75D /* Foundation.framework */,
+				AC2A4A1018F988A1001FD75D /* CoreGraphics.framework */,
+				AC2A4A1218F988A1001FD75D /* UIKit.framework */,
+				AC2A4A2D18F988A1001FD75D /* XCTest.framework */,
+				A2E4E051381045B4B033253D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC2A4A1418F988A1001FD75D /* AFNetworkingTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A4A1D18F988A1001FD75D /* AppDelegate.h */,
+				AC2A4A1E18F988A1001FD75D /* AppDelegate.m */,
+				AC2A4A2018F988A1001FD75D /* Main.storyboard */,
+				AC2A4A2618F988A1001FD75D /* Images.xcassets */,
+				AC2A4A1518F988A1001FD75D /* Supporting Files */,
+				AC2A4A4318F98AEF001FD75D /* SearchSplitViewController.h */,
+				AC2A4A4418F98AEF001FD75D /* SearchSplitViewController.m */,
+				AC2A4A4618F98C52001FD75D /* DetailViewController.h */,
+				AC2A4A4718F98C52001FD75D /* DetailViewController.m */,
+				AC2A4A4918FB1680001FD75D /* DollarInputViewController.h */,
+				AC2A4A4A18FB1680001FD75D /* DollarInputViewController.m */,
+				AC3BEEC618FB423C00AEF612 /* CurrencyConversion.h */,
+			);
+			path = AFNetworkingTutorial;
+			sourceTree = "<group>";
+		};
+		AC2A4A1518F988A1001FD75D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A4A1618F988A1001FD75D /* AFNetworkingTutorial-Info.plist */,
+				AC2A4A1718F988A1001FD75D /* InfoPlist.strings */,
+				AC2A4A1A18F988A1001FD75D /* main.m */,
+				AC2A4A1C18F988A1001FD75D /* AFNetworkingTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC2A4A3318F988A1001FD75D /* AFNetworkingTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A4A3918F988A1001FD75D /* AFNetworkingTutorialTests.m */,
+				AC2A4A3418F988A1001FD75D /* Supporting Files */,
+			);
+			path = AFNetworkingTutorialTests;
+			sourceTree = "<group>";
+		};
+		AC2A4A3418F988A1001FD75D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC2A4A3518F988A1001FD75D /* AFNetworkingTutorialTests-Info.plist */,
+				AC2A4A3618F988A1001FD75D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2A4A0A18F988A1001FD75D /* AFNetworkingTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2A4A3D18F988A1001FD75D /* Build configuration list for PBXNativeTarget "AFNetworkingTutorial" */;
+			buildPhases = (
+				5FFA34E58F5A40FE827010F2 /* Check Pods Manifest.lock */,
+				AC2A4A0718F988A1001FD75D /* Sources */,
+				AC2A4A0818F988A1001FD75D /* Frameworks */,
+				AC2A4A0918F988A1001FD75D /* Resources */,
+				BB436FB3A4B6466699D2C9DD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworkingTutorial;
+			productName = AFNetworkingTutorial;
+			productReference = AC2A4A0B18F988A1001FD75D /* AFNetworkingTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC2A4A2B18F988A1001FD75D /* AFNetworkingTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2A4A4018F988A1001FD75D /* Build configuration list for PBXNativeTarget "AFNetworkingTutorialTests" */;
+			buildPhases = (
+				AC2A4A2818F988A1001FD75D /* Sources */,
+				AC2A4A2918F988A1001FD75D /* Frameworks */,
+				AC2A4A2A18F988A1001FD75D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2A4A3218F988A1001FD75D /* PBXTargetDependency */,
+			);
+			name = AFNetworkingTutorialTests;
+			productName = AFNetworkingTutorialTests;
+			productReference = AC2A4A2C18F988A1001FD75D /* AFNetworkingTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2A4A0318F988A1001FD75D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Son Ngo";
+				TargetAttributes = {
+					AC2A4A2B18F988A1001FD75D = {
+						TestTargetID = AC2A4A0A18F988A1001FD75D;
+					};
+				};
+			};
+			buildConfigurationList = AC2A4A0618F988A1001FD75D /* Build configuration list for PBXProject "AFNetworkingTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2A4A0218F988A1001FD75D;
+			productRefGroup = AC2A4A0C18F988A1001FD75D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2A4A0A18F988A1001FD75D /* AFNetworkingTutorial */,
+				AC2A4A2B18F988A1001FD75D /* AFNetworkingTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2A4A0918F988A1001FD75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A4A2718F988A1001FD75D /* Images.xcassets in Resources */,
+				AC2A4A1918F988A1001FD75D /* InfoPlist.strings in Resources */,
+				AC2A4A2218F988A1001FD75D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2A4A2A18F988A1001FD75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A4A3818F988A1001FD75D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FFA34E58F5A40FE827010F2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB436FB3A4B6466699D2C9DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2A4A0718F988A1001FD75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A4A1F18F988A1001FD75D /* AppDelegate.m in Sources */,
+				AC2A4A1B18F988A1001FD75D /* main.m in Sources */,
+				AC2A4A4518F98AEF001FD75D /* SearchSplitViewController.m in Sources */,
+				AC2A4A4818F98C52001FD75D /* DetailViewController.m in Sources */,
+				AC2A4A4B18FB1680001FD75D /* DollarInputViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2A4A2818F988A1001FD75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A4A3A18F988A1001FD75D /* AFNetworkingTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2A4A3218F988A1001FD75D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2A4A0A18F988A1001FD75D /* AFNetworkingTutorial */;
+			targetProxy = AC2A4A3118F988A1001FD75D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC2A4A1718F988A1001FD75D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2A4A1818F988A1001FD75D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC2A4A2018F988A1001FD75D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2A4A2118F988A1001FD75D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC2A4A3618F988A1001FD75D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2A4A3718F988A1001FD75D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC2A4A3B18F988A1001FD75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AC2A4A3C18F988A1001FD75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2A4A3E18F988A1001FD75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50598592A4F415382FDD198 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingTutorial/AFNetworkingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingTutorial/AFNetworkingTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC2A4A3F18F988A1001FD75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50598592A4F415382FDD198 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingTutorial/AFNetworkingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingTutorial/AFNetworkingTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC2A4A4118F988A1001FD75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFNetworkingTutorial.app/AFNetworkingTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingTutorial/AFNetworkingTutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFNetworkingTutorialTests/AFNetworkingTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC2A4A4218F988A1001FD75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFNetworkingTutorial.app/AFNetworkingTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNetworkingTutorial/AFNetworkingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "AFNetworkingTutorialTests/AFNetworkingTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2A4A0618F988A1001FD75D /* Build configuration list for PBXProject "AFNetworkingTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2A4A3B18F988A1001FD75D /* Debug */,
+				AC2A4A3C18F988A1001FD75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2A4A3D18F988A1001FD75D /* Build configuration list for PBXNativeTarget "AFNetworkingTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2A4A3E18F988A1001FD75D /* Debug */,
+				AC2A4A3F18F988A1001FD75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2A4A4018F988A1001FD75D /* Build configuration list for PBXNativeTarget "AFNetworkingTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2A4A4118F988A1001FD75D /* Debug */,
+				AC2A4A4218F988A1001FD75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2A4A0318F988A1001FD75D /* Project object */;
+}
